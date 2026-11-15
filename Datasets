@@ -1,0 +1,56 @@
+Overview
+This section provides a collection of representative datasets and benchmarks for question answering (QA) in autonomous driving.
+These datasets cover a variety of tasks, including visual question answering, counterfactual reasoning, scene understanding, spatial reasoning, perception, prediction, and planning. They involve different data sources and modalities, such as real-world driving videos, camera images, LiDAR point clouds, textual descriptions, and trajectories.
+The table summarizes their publication information, data sources, supported modalities, QA tasks, dataset scales, and available resources. Paper titles are linked to their corresponding publications whenever a verified link is available. Official project repositories and dataset websites are provided in the Resources column when available.
+Dataset Comparison
+Dataset	Year / Venue	Source	Modalities	QA Tasks	Scale	Resources
+SUTD-TrafficQA	2021 / CVPR	Real	V, T	VQA, CQA, P2	10,080 videos, 62,535 QA pairs	GitHub
+DRAMA	2023 / WACV	Real	V, T	VQA, Visual Reasoning	18K videos, 77K questions, 102K answers	Dataset
+DriveLM	2024 / ECCV	Real, Sim	I, T, Tra.	GVQA, P1, P2, P3	4,871 frames, 443K QA pairs	GitHub
+LingoQA	2024 / ECCV	Real	V, T	VQA, SU	28K scenarios, 419.9K QA pairs	GitHub
+NuScenes-QA	2024 / AAAI	Real	I, L, T	VQA	34,149 scenes, 460K QA pairs	GitHub
+NuScenes-MQA	2024 / WACV	Real	I, T	VQA, Caption QA, Reasoning	34,149 scenes, 1.5M QA pairs	GitHub
+VLAAD	2024 / WACV	Real	V, T	QA, Caption, Reasoning	11K videos, 64K instruction pairs	GitHub
+Driving QA	2024 / ICRA	Sim	I, T	VQA, P1, P2	160K QA pairs, 10K scenarios	—
+MAPLM-QA	2024 / CVPR	Real	I, L, M, T	Caption, VQA	2M frames, 161.6K QA pairs	—
+DRIVEVLM	2024 / arXiv	Real	I, T, Tra.	SU, P3	1,000 video clips	—
+DriveMLLM	2024 / arXiv	Real	I, T	Spatial QA, VQA	880 images, 8 spatial QA tasks	GitHub
+TOKEN	2024 / arXiv	Real	V, M, T	VQA, P3 QA	150K P1 QAs	—
+OmniDrive	2025 / CVPR	Real	I, T, Tra.	CQA, P1, P3, Reasoning	Based on nuScenes	GitHub
+NuInstruct	2024 / CVPR	Real	I, T, Tra.	Caption, P3, CQA	850 videos, 91.4K QA pairs	—
+AutoDrive-QA	2025 / arXiv	Real, Sim	I, L, T, V	VQA, P1, P2, P3	5,125 MCQs	—
+NuPlanQA	2025 / arXiv	Real	I, T	VQA, Reasoning, P1, Action	1M trajectories, 8K evaluation QA pairs	—
+V2V-QA	2025 / arXiv	Real	L, T	VQA, Reasoning, P3 QA	48K frames, 1.45M QA pairs	—
+DriveLMM-o1	2025 / arXiv	Real	I, L, T	VQA, P1, P2, P3, Reasoning	1,962 scenes, 18,507 QA pairs	—
+nuScenes-SpatialQA	2025 / arXiv	Real	I, L, T	Spatial Understanding QA, Reasoning QA	3.5M QA pairs	Project Page
+Box-Qaymo	2025 / arXiv	Real	I, T	VQA, Reasoning	101 scenes, 20,779 QA pairs	—
+Notes
+Modalities:
+● I = RGB image
+● V = Video
+● T = Text
+● L = LiDAR
+● M = HD map
+● Tra. = Trajectory
+Data Sources:
+● Real = Real-world data
+● Sim = Simulation data
+QA Tasks:
+● VQA = Visual Question Answering
+● CQA = Counterfactual Question Answering
+● Caption = Scene/Image Captioning
+● Reasoning = Causal, spatial, or temporal reasoning
+● SU = Spatial Understanding
+● QA = General Question Answering
+● P1 = Perception-level QA
+● P2 = Prediction-focused QA
+● P3 = Planning and behavior QA
+● GVQA = Graph-based Visual Question Answering
+Dataset Statistics:
+● MCQ = Multiple-choice Questions
+● Evaluation QA = QA pairs used for evaluation
+● Training QA = QA pairs used for training
+Links and Availability:
+● Paper titles link to the corresponding publications when verified.
+● Resources link to official project repositories or dataset websites when available.
+● A dash (—) indicates that a verified public resource link has not yet been added. It does not necessarily mean that the dataset is unavailable.
