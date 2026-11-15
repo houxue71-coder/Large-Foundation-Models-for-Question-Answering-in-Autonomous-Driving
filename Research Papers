@@ -1,0 +1,76 @@
+Overview
+This section collects representative research papers on large foundation models and their applications in autonomous driving.
+The selected studies cover a broad range of topics, including multimodal scene understanding, visual question answering, reasoning, decision-making, motion planning, human-AI interaction, and multi-agent collaboration.
+To highlight their relevance to autonomous driving question answering (QA), the papers are organized into three groups:
+● QA and Multimodal Understanding: Research directly related to question answering, visual-language understanding, multimodal reasoning, and QA-oriented benchmarks.
+● LLM-based Autonomous Driving: Research applying large language models (LLMs) or multimodal large language models (MLLMs) to driving decision-making, planning, control, and interaction.
+● Related and General AI Research: Supporting research on traffic generation, model robustness, multi-agent systems, and other related technologies.
+1. QA and Multimodal Understanding
+Paper	Year / Venue	Research Focus	QA Relevance	Resources
+Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving	2024 / ICRA	Object-level multimodal fusion, driving QA, and explainable decision-making	Direct	Project
+Holistic Autonomous Driving Understanding by Bird's-Eye-View Injected Multi-Modal Large Models	2024 / CVPR	BEV-based multimodal understanding and multi-view video QA	Direct	NuInstruct
+LaMPilot: An Open Benchmark Dataset for Autonomous Driving with Language Model Programs	2024 / CVPR	Language-guided driving and benchmark for language model programs	Related	GitHub
+MAPLM: A Real-World Large-Scale Vision-Language Benchmark for Map and Traffic Scene Understanding	2024 / CVPR	Vision-language benchmark for traffic scenes and HD maps	Direct	GitHub
+Reason2Drive: Towards Interpretable and Chain-based Reasoning for Autonomous Driving	2024 / ECCV	Perception, prediction, and interpretable chain-based reasoning	Direct	—
+An Advanced Driving Agent with the Multimodal Large Language Model for Autonomous Vehicles	2024 / MOST	MLLM-based driving agent and VQA dataset construction	Direct	—
+DriveGPT4: Interpretable End-to-End Autonomous Driving via Large Language Model	2024 / RA-L	End-to-end driving with language-based scene interpretation and explanations	Direct	—
+Dolphins: Multimodal Language Model for Driving	2024 / ECCV	Driving-oriented vision-language model and multimodal reasoning	Direct	Project
+DriveMM: All-in-One Large Multimodal Model for Autonomous Driving	2024 / arXiv	Unified multimodal understanding across perception, prediction, and planning	Direct	GitHub
+V2V-LLM: Vehicle-to-Vehicle Cooperative Autonomous Driving with Multi-Modal Large Language Models	2025 / arXiv	Cooperative driving, V2V question answering, and multimodal reasoning	Direct	Project
+ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation	2025 / ICCV	Vision-language reasoning, VQA, and action generation	Direct	—
+OpenDriveVLA: Towards End-to-end Autonomous Driving with Large Vision Language Action Model	2025 / AAAI 2026	Vision-language-action modeling and driving-related QA	Direct	GitHub
+STSBench: A Spatio-temporal Scenario Benchmark for Multi-modal Large Language Models in Autonomous Driving	2025 / arXiv	Spatio-temporal evaluation benchmark for multimodal LLMs	Direct	—
+2. LLM-based Autonomous Driving
+Paper	Year / Venue	Research Focus	QA Relevance	Resources
+DiLu: A Knowledge-Driven Approach to Autonomous Driving with LLMs	2023 / arXiv	Knowledge-driven autonomous driving framework	Related	—
+LanguageMPC: Large Language Models as Decision Makers for Autonomous Driving	2023 / arXiv	LLM-based reasoning and model predictive control	Related	Project
+Empowering Autonomous Driving with Large Language Models: A Safety Perspective	2023 / arXiv	LLM-based driving decision-making and safety verification	Related	—
+DriveMLM: Aligning Multi-Modal Large Language Models with Behavioral Planning States for Autonomous Driving	2023 / arXiv	Multimodal LLM-based behavioral planning and explanation	Related	—
+A Superalignment Framework in Autonomous Driving with Large Language Models	2024 / IV	Multi-agent security, privacy protection, and safety alignment	Related	—
+Drive Like a Human: Rethinking Autonomous Driving with Large Language Models	2024 / WACVW	Human-like reasoning, interpretation, and driving experience	Related	GitHub
+Human-Centric Autonomous Systems With LLMs for User Command Reasoning	2024 / WACVW	Natural-language command understanding and user intent reasoning	Related	GitHub
+Hybrid Reasoning based on Large Language Models for Autonomous Car Driving	2024 / ICCMA	Hybrid reasoning for autonomous driving	Related	—
+LMDrive: Closed-Loop End-to-End Driving with Large Language Models	2024 / CVPR	Language-guided closed-loop end-to-end driving	Related	GitHub
+SurrealDriver: Designing LLM-powered Generative Driver Agent Framework based on Human Drivers' Driving-thinking Data	2024 / IROS	Human-like generative driving agents and driving-thinking data	Related	Dataset
+Think-Driver: From Driving-Scene Understanding to Decision-Making with Vision Language Models	2024 / ECCV	Vision-language scene understanding and driving decision-making	Related	—
+VLP: Vision Language Planning for Autonomous Driving	2024 / CVPR	Vision-language reasoning and motion planning	Related	—
+DRIVEVLM: The Convergence of Autonomous Driving and Large Vision-Language Models	2024 / arXiv	VLM-based scene understanding and hierarchical planning	Related	—
+Receive, Reason, and React: Drive as You Say with Large Language Models in Autonomous Vehicles	2024 / IEEE ITS Magazine	Natural-language interaction and LLM-based driving response	Related	—
+Parallel Driving with Big Models and Foundation Intelligence in Cyber–Physical–Social Spaces	2024 / Research	Foundation-model-based parallel driving framework	Related	—
+DriveGPT: Scaling Autoregressive Behavior Models for Driving	2024 / arXiv	Autoregressive driving behavior modeling	Related	—
+ALGPT: Multi-Agent Cooperative Framework for Open-Vocabulary Multi-Modal Auto-Annotating in Autonomous Driving	2025 / IEEE T-IV	Multi-agent collaboration and multimodal auto-annotation	Related	—
+Asynchronous Large Language Model Enhanced Planner for Autonomous Driving	2024 / ECCV	Asynchronous LLM-enhanced motion planning	Related	—
+Learning Autonomous Driving Tasks via Human Feedbacks with Large Language Models	2024 / EMNLP Findings	Human-feedback-driven learning for autonomous driving	Related	—
+KoMA: Knowledge-Driven Multi-Agent Framework for Autonomous Driving with Large Language Models	2025 / IEEE T-IV	Knowledge-driven multi-agent cooperation	Related	—
+Hints of Prompt: Enhancing Visual Representation for Multimodal LLMs in Autonomous Driving	2024 / arXiv	Prompt-based visual representation enhancement	Related	—
+FASIONAD: FAst and Slow FusION Thinking Systems for Human-Like Autonomous Driving with Adaptive Feedback	2024 / arXiv	Fast-slow reasoning and adaptive feedback	Related	—
+LiDAR-LLM: Exploring the Potential of Large Language Models for 3D LiDAR Understanding	2025 / AAAI	LiDAR-language alignment and 3D scene understanding	Related	—
+Distilling Multi-modal Large Language Models for Autonomous Driving	2025 / arXiv	Multimodal knowledge distillation for end-to-end driving	Related	—
+Language Prompt for Autonomous Driving	2025 / AAAI	Language prompting for autonomous driving	Related	—
+LightEMMA: Lightweight End-to-End Multimodal Model for Autonomous Driving	2025 / arXiv	Lightweight multimodal end-to-end driving model	Related	—
+DiffVLA: Vision-Language Guided Diffusion Planning for Autonomous Driving	2025 / arXiv	Vision-language-guided diffusion-based trajectory planning	Related	Project
+CCMA: A Framework for Cascading Cooperative Multi-Agent in Autonomous Driving Merging Using Large Language Model	2025 / ESWA	LLM-based cooperative multi-agent driving and merging	Related	—
+BeVLM: GoT-based Integration of BEV and LLM for Driving with Language	— / Preprint	BEV-language integration and graph-of-thought reasoning	Related	—
+3. Related and General AI Research
+Paper	Year / Venue	Research Focus	QA Relevance	Resources
+Language-Guided Traffic Simulation via Scene-Level Diffusion	2023 / CoRL	Language-guided traffic scene generation using diffusion models	Background	—
+Language Conditioned Traffic Generation	2023 / arXiv	Language-conditioned traffic scenario generation	Background	Project
+On Evaluating Adversarial Robustness of Large Vision-Language Models	2023 / NeurIPS	Adversarial robustness evaluation of large vision-language models	Background	—
+TransGPT: Multi-modal Generative Pre-trained Transformer for Transportation	2024 / CLNLP	Multimodal foundation model for transportation applications	Background	—
+Domain Knowledge Distillation from Large Language Model: An Empirical Study in the Autonomous Driving Domain	2023 / ITSC	Domain knowledge extraction and distillation using LLMs	Background	—
+Towards Transferable Attacks Against Vision-LLMs in Autonomous Driving with Typography	2024 / arXiv	Adversarial attacks and robustness of vision-language models in driving scenarios	Background	—
+Engineering Safety Requirements for Autonomous Driving with Large Language Models	2024 / RE	LLM-assisted safety requirement engineering	Background	—
+MultiAgentBench: Evaluating the Collaboration and Competition of LLM Agents	2025 / arXiv	Benchmarking collaboration and competition among LLM agents	Background	—
+Safety Implications of Explainable Artificial Intelligence in End-to-End Autonomous Driving	2025 / IEEE T-ITS	Explainability and safety in end-to-end autonomous driving	Background	—
+Notes
+QA Relevance:
+● Direct: Explicitly addresses autonomous driving QA, VQA, QA benchmarks, or QA-oriented multimodal reasoning.
+● Related: Focuses on driving perception, reasoning, planning, decision-making, or human-AI interaction, which can support QA-oriented autonomous driving systems.
+● Background: Provides general foundation-model, robustness, traffic simulation, safety, or multi-agent techniques relevant to the broader research context.
+Publication Information:
+● The year refers to the publication year or the first public release year of the preprint, as indicated in the table.
+● For preprints that were subsequently published at conferences or journals, the publication information should be updated when the final version is available.
+● A Google Scholar search link is used when a unique official publication URL has not yet been verified.
+● A dash (—) indicates that an official resource link has not yet been added.
+Contributions
+We welcome contributions, corrections, and suggestions. If you find missing papers, incorrect publication information, or additional official resources, please feel free to open an issue or submit a pull request.
