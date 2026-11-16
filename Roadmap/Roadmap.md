@@ -8,7 +8,7 @@ The selected models are arranged chronologically within each category to illustr
 
 Large Language Models focus on learning general-purpose language representations and generation capabilities. Their development has progressed from early pre-trained language models to increasingly large and capable models with strong language understanding, reasoning, and instruction-following abilities.
 
-| Model | Paper Title | Venue | URL |
+| Model | Paper Title | Venue | Link |
 |---|---|---|---|
 | GPT-1 | Improving Language Understanding by Generative Pre-training | arXiv (2018) | [https://arxiv.org/abs/1810.04805](https://arxiv.org/abs/1810.04805) |
 | GPT-2 | Language Models are Unsupervised Multitask Learners | OpenAI Technical Report (2019) | [https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) |
