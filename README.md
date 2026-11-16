@@ -11,6 +11,7 @@ This repository aims to provide a structured collection of representative founda
 ### 📚 Read the Full Survey Paper
 
 📄 **[Read the Full Survey Paper (PDF)](./Large_Foundation_Models_for_Question_Answering_in_Autonomous_Driving_A_Review.pdf)**
+
 ### 📌 Highlights
 
 This survey presents a unified QA-centric perspective on large foundation models for autonomous driving, with the following highlights:
@@ -34,26 +35,61 @@ The overall organization of the paper is illustrated below.
 
 ![Organization of the Survey](./Organization.png)
 
-*Note: Place the survey organization figure in the repository root directory as `framework.png`, or update the image path accordingly.*
-
 ---
 
 ## 🔗 Repository Structure
 
 The repository contains two main sections, organized according to the foundation model roadmap and the QA dataset table presented in the survey.
 
-1. **[Roadmap of Large Foundation Models](./Roadmap/Roadmap.md)**
+### 1. [Roadmap of Large Foundation Models](./ROADMAP/README.md)
 
-   A collection of representative foundation models and milestone papers, organized into seven categories:
+A collection of representative foundation models and milestone papers, organized into five categories:
 
-   - Large Language Models (LLMs)
-   - Vision-Language Models (VLMs)
-   - Multimodal Large Language Models (MLLMs)
-   - Foundation Models for Autonomous Driving
-   - World Models
-   - Vision-Language-Action (VLA) Models
-   - Multi-Agent Systems
+- **Large Language Models (LLMs)**
+- **Vision-Language Models (VLMs)**
+- **Multimodal Large Language Models (MLLMs)**
+- **Diffusion Models (DMs)**
+- **World Models (WMs)**
 
-2. **[QA Datasets and Benchmarks](./Datasets/Datasets.md)**
+### 2. [QA Datasets and Benchmarks](./datasets/datasets_benchmarks.md)
 
-   A collection of datasets and benchmarks for question answering in autonomous driving, including representative papers, data modalities, QA task categories, dataset statistics, and available resources.
+A collection of datasets and benchmarks for question answering in autonomous driving, including representative papers, data modalities, QA task categories, dataset statistics, and available resources.
+
+---
+
+## 📖 Scope
+
+This repository focuses on large foundation models and their relevance to question answering in autonomous driving. It provides complementary resources covering model development and QA dataset construction.
+
+The roadmap summarizes representative model architectures and their milestone publications, while the dataset collection provides an overview of existing QA datasets and benchmarks for autonomous driving.
+
+Together, these resources offer a structured reference for understanding the development of foundation-model-based question answering in autonomous driving.
+
+---
+
+## 🤝 Contributions
+
+We welcome contributions, corrections, and suggestions from the research community. If you find missing papers, incorrect information, or additional relevant datasets and resources, please feel free to open an issue or submit a pull request.
+
+---
+
+## 📄 Citation
+
+If you find this repository or the associated survey useful in your research, please consider citing our paper:
+
+```bibtex
+@article{your_citation_key,
+  title={Large Foundation Models for Question Answering in Autonomous Driving: A Review},
+  author={Author Names},
+  journal={Journal Name},
+  year={Year}
+}
+```
+
+The citation information will be updated upon publication.
+
+---
+
+## ⭐ Acknowledgement
+
+Thank you for your interest in this repository. We hope these resources will facilitate further research on large foundation models and question answering for autonomous driving.
