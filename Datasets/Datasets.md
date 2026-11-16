@@ -11,7 +11,7 @@ The table summarizes their publication information, supported modalities, QA tas
 ## Dataset Comparison
 
 | Dataset / Paper | Year / Venue | Modalities | QA Tasks | Scale | Link |
-|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|
 | SUTD-TrafficQA: A Question Answering Benchmark and an Efficient Network for Video Reasoning | 2021 / CVPR | V, T | VQA, CQA, P2 | 10,080 videos, 62,535 QA pairs | [https://openaccess.thecvf.com/content/CVPR2021/html/Xu_SUTD-TrafficQA_A_Question_Answering_Benchmark_and_an_Efficient_Network_for_CVPR_2021_paper.html](https://openaccess.thecvf.com/content/CVPR2021/html/Xu_SUTD-TrafficQA_A_Question_Answering_Benchmark_and_an_Efficient_Network_for_CVPR_2021_paper.html) <br> [https://github.com/SUTDCV/SUTD-TrafficQA](https://github.com/SUTDCV/SUTD-TrafficQA) |
 | DRAMA: Joint Risk Localization and Captioning in Driving | 2023 / WACV | V, T | VQA, Visual Reasoning | 17,785 driving scenarios | [https://openaccess.thecvf.com/content/WACV2023/html/Malla_DRAMA_Joint_Risk_Localization_and_Captioning_in_Driving_WACV_2023_paper.html](https://openaccess.thecvf.com/content/WACV2023/html/Malla_DRAMA_Joint_Risk_Localization_and_Captioning_in_Driving_WACV_2023_paper.html) <br> [https://usa.honda-ri.com/drama](https://usa.honda-ri.com/drama) |
 | DriveLM: Driving with Graph Visual Question Answering | 2024 / ECCV | I, T, Tra. | GVQA, P1, P2, P3 | 4,871 frames, 443K QA pairs | [https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6870_ECCV_2024_paper.php](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6870_ECCV_2024_paper.php) <br> [https://github.com/OpenDriveLab/DriveLM](https://github.com/OpenDriveLab/DriveLM) |
