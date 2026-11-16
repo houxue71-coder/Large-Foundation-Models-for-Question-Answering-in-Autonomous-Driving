@@ -73,22 +73,7 @@ We welcome contributions, corrections, and suggestions from the research communi
 
 ---
 
-## 📄 Citation
 
-If you find this repository or the associated survey useful in your research, please consider citing our paper:
-
-```bibtex
-@article{your_citation_key,
-  title={Large Foundation Models for Question Answering in Autonomous Driving: A Review},
-  author={Author Names},
-  journal={Journal Name},
-  year={Year}
-}
-```
-
-The citation information will be updated upon publication.
-
----
 
 ## ⭐ Acknowledgement
 
