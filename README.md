@@ -32,7 +32,7 @@ It covers the evolution of QA in autonomous driving, the integration of foundati
 
 The overall organization of the paper is illustrated below.
 
-![Organization of the Survey](./framework.png)
+![Organization of the Survey](./Organization.png)
 
 *Note: Place the survey organization figure in the repository root directory as `framework.png`, or update the image path accordingly.*
 
