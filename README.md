@@ -10,8 +10,7 @@ This repository aims to provide a structured collection of representative founda
 
 ### 📚 Read the Full Survey Paper
 
-📄 **[Read the Full Survey Paper (PDF)](./paper.pdf)**
-
+📄 **[Read the Full Survey Paper (PDF)](./Large_Foundation_Models_for_Question_Answering_in_Autonomous_Driving_A_Review.pdf)**
 ### 📌 Highlights
 
 This survey presents a unified QA-centric perspective on large foundation models for autonomous driving, with the following highlights:
