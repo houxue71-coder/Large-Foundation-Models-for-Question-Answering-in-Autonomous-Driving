@@ -41,7 +41,7 @@ The overall organization of the paper is illustrated below.
 
 The repository contains two main sections, organized according to the foundation model roadmap and the QA dataset table presented in the survey.
 
-### 1. [Roadmap of Large Foundation Models](./ROADMAP/Roadmap.md)
+### 1. [Roadmap of Large Foundation Models](./Roadmap/Roadmap.md)
 
 A collection of representative foundation models and milestone papers, organized into five categories:
 
