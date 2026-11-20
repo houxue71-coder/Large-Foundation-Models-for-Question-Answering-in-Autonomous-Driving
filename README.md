@@ -41,7 +41,7 @@ The overall organization of the paper is illustrated below.
 
 The repository contains two main sections, organized according to the foundation model roadmap and the QA dataset table presented in the survey.
 
-### 1. [Roadmap of Large Foundation Models](./ROADMAP/README.md)
+### 1. [Roadmap of Large Foundation Models](./ROADMAP/Roadmap.md)
 
 A collection of representative foundation models and milestone papers, organized into five categories:
 
@@ -51,7 +51,7 @@ A collection of representative foundation models and milestone papers, organized
 - **Diffusion Models (DMs)**
 - **World Models (WMs)**
 
-### 2. [QA Datasets and Benchmarks](./datasets/datasets_benchmarks.md)
+### 2. [QA Datasets and Benchmarks](./Datasets/Datasets.md)
 
 A collection of datasets and benchmarks for question answering in autonomous driving, including representative papers, data modalities, QA task categories, dataset statistics, and available resources.
 
